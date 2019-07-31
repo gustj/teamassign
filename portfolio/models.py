@@ -5,7 +5,7 @@ from django.db import models
 class Portfolio(models.Model):
     title = models.CharField(max_length=255)
     #문자열 최대 255
-    image = models.ImageField(upload_to='images/')
+   # image = models.ImageField(upload_to='images/')
     #이미지를 받는 field
     description = models.CharField(max_length=500)
     #문자열을 받는 field
